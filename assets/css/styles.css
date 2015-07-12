@@ -1,0 +1,191 @@
+/* Reset */
+
+	* {
+		margin: 0;
+		padding: 0;
+	}
+
+/* Body */
+
+	html, body {
+		height: 100%;
+		overflow: hidden;
+	}
+
+	body {
+		background: #fff;
+		color: #000;
+		-webkit-font-smoothing: antialiased;
+		-moz-font-smoothing: antialiased;
+		font-smoothing: antialiased;
+		font-family: 'Courier', helvetica, arial, sans-serif;
+	}
+
+/* No JS */
+
+	.no-js {
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		bottom: 0;
+		background: #fff;
+		color: #888;
+		z-index: 9999;
+		text-align: center;
+	}
+
+/* Question */
+
+	table, tr, td {
+		width: 100%;
+		height: 100%;
+		margin: 0;
+		padding: 0;
+		border: 0;
+		border-collapse: collapse;
+		vertical-align: middle;
+	}
+
+	.question {
+		overflow: hidden;
+		font-size: 100px;
+		line-height: 100px;
+		text-align: center;
+	}
+
+	.num1, .num2, .ans {
+		display: inline-block;
+	}
+
+	.ans {
+		border: 3px solid #ddd;
+		outline: none;
+		font-family: 'Courier', helvetica, arial, sans-serif;
+		font-size: 70px;
+		line-height: 70px;
+		color: #000;
+		padding: 30px;
+		-webkit-font-smoothing: antialiased;
+		-moz-font-smoothing: antialiased;
+		font-smoothing: antialiased;
+		width: 120px;
+		overflow: hidden;
+		text-align: center;
+		-webkit-transition: 0.2s;
+		-moz-transition: 0.2s;
+		transition: 0.2s;
+	}
+
+/* Difficulty */
+
+	.difficulty {
+		position: absolute;
+		top: 60px;
+		left: 60px;
+		display: block;
+		font-size: 16px;
+		line-height: 26px;
+		color: #999;
+	}
+
+	.difficulty a {
+		color: #999;
+		text-decoration: none;
+		cursor: pointer;
+		-webkit-transition: 0.2s;
+		-moz-transition: 0.2s;
+		transition: 0.2s;
+	}
+
+	.difficulty a:hover,
+	.difficulty a.active {
+		color: #3498db;
+	}
+
+/* Score */
+
+	.score {
+		position: absolute;
+		top: 60px;
+		right: 60px;
+		display: block;
+		font-size: 16px;
+		line-height: 26px;
+		color: #999;
+	}
+
+	.score a.reset {
+		color: #999;
+		text-decoration: none;
+		cursor: pointer;
+		-webkit-transition: 0.2s;
+		-moz-transition: 0.2s;
+		transition: 0.2s;
+	}
+
+	.score a.reset:hover {
+		color: #3498db;
+	}
+
+/* Credit */
+
+	.credit {
+		position: absolute;
+		bottom: 60px;
+		left: 60px;
+		display: block;
+		font-size: 16px;
+		line-height: 26px;
+		color: #999;
+	}
+
+	.credit a {
+		color: #999;
+		text-decoration: none;
+		cursor: pointer;
+		-webkit-transition: 0.2s;
+		-moz-transition: 0.2s;
+		transition: 0.2s;
+	}
+
+	.credit a:hover {
+		color: #3498db;
+	}
+
+/* Cookies */
+
+	.cookies {
+		position: absolute;
+		left: 50%;
+		margin-left: -189px;
+		bottom: 60px;
+		width: 350px;
+		padding: 10px 14px;
+		font-size: 12px;
+		line-height: 18px;
+		text-align: center;
+		background: #fceacd;
+		-webkit-border-radius: 3px;
+		-moz-border-radius: 3px;
+		border-radius: 3px;
+		color: #f39c12;
+		cursor: pointer;
+		-webkit-transition: 0.2s;
+		-moz-transition: 0.2s;
+		transition: 0.2s;
+	}
+
+	.cookies:hover {
+		background: #fbdaa7;
+	}
+
+		.cookies a {
+			color: #f39c12;
+			text-decoration: underline;
+		}
+
+		.cookies a:hover {
+			color: #c07a0a;
+		}
